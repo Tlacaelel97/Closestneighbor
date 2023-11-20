@@ -12,10 +12,10 @@ You are able to wrap around one side of the matrix to the other as well.
 
 For example: if strArr is ["0000", "1000", "0002", "0002"] then this looks like the following:
 
-0 0 0 0
-1 0 0 0
-0 0 0 2
-0 0 0 2
+0 0 0 0  
+1 0 0 0  
+0 0 0 2  
+0 0 0 2  
 
 For this input your program should return 2 because the closest enemy (2) is 2 spaces away from
 the 1 by moving left to wrap to the other side and then moving down once.
